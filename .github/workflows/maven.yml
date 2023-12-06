@@ -38,4 +38,4 @@ jobs:
     - name: perm html
       run: chmod +x make_html.sh
     - name: build html
-      run: ./make_html.sh
+      run: ./make_html.sh --file pom.xml
