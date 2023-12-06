@@ -13,7 +13,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+permissions:
+    contents: write
 jobs:
   build:
 
@@ -43,3 +44,4 @@ jobs:
       with:
         folder: wwwroot/
         branch: gh-pages
+      
