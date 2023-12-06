@@ -39,4 +39,4 @@ jobs:
       run: sh make_html.sh /home/runner/work/at4/at4/target/biblio-0.1.jar
                   
     - name: Deploy to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4.5.0
+      uses: JamesIves/github-pages-deploy-action@v4.5.0 wwwroot/
