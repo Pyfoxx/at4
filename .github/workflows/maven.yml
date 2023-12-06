@@ -43,4 +43,3 @@ jobs:
       with:
         folder: wwwroot/
         publish_branch: gh-pages
-        repository-name: at4
